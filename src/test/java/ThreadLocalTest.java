@@ -4,8 +4,8 @@
  * @Time 16:02
  */
 public class ThreadLocalTest {
-     ThreadLocal<Long> longLocal = new ThreadLocal<>();
-     ThreadLocal<String> stringLocal = new ThreadLocal<>();
+     ThreadLocal<Long> longLocal = new ThreadLocal();
+     ThreadLocal<String> stringLocal = new ThreadLocal();
 
 
      public  void  set(){

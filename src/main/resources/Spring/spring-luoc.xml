@@ -8,5 +8,6 @@
     <property name="passWord" value="123456"/>
     </bean>
 
+
     <import resource="spring-redis.xml"/>
 </beans>
